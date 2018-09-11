@@ -18,6 +18,64 @@ header {
 	width: 100%;
 }
 
+.logo-image {
+
+}
+
+.logo-image-wrapper {
+    margin-left: 5px;
+    position: relative;
+}
+
+.image-dot {
+    height: 3px;
+    position: absolute;
+    width: 3px;
+    border-radius: 50%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.blue-dot {
+    top: 17px;
+    left: 64px;
+    background-color: #0000ff;
+    animation-name: blueanimation;
+}
+
+@keyframes blueanimation {
+    0%   {background-color: #0000ff;}
+    50%  {background-color: #000099;}
+    100% {background-color: #0000ff;}
+}
+
+.red-dot {
+    top: 17px;
+    left: 71px;
+    background-color: #ff0000;
+    animation-name: redanimation;
+}
+
+@keyframes redanimation {
+    0%   {background-color: #ff0000;}
+    50%  {background-color: #990000;}
+    100% {background-color: #ff0000;}
+}
+
+.white-dot {
+    top: 13px;
+    left: 67px;
+    background-color: #ffffff;
+    animation-name: whiteanimation;
+}
+
+
+@keyframes whiteanimation {
+    0%   {background-color: #ffffff;}
+    50%  {background-color: #b0b0b0;}
+    100% {background-color: #ffffff;}
+}
+
 .date {
 	color: #ffffff;
 	display: flex;
@@ -40,7 +98,7 @@ footer {
 
 .header-bottom-border-wrapper {
 	position: fixed;
-	top: 68px;
+	top: 63px;
 	width: 100%;
 	background-color: #b7b7b7;
 	height: 5px;
