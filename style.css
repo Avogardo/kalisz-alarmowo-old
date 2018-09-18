@@ -123,7 +123,7 @@ img {
 nav {
     height: 50px;
     background-color: #ffffff;
-    display: flex;
+    display: none;
     align-items: center;
     font-family: sans-serif;
     font-weight: 600;
@@ -158,7 +158,7 @@ nav {
 }
 
 .breaking-news-title {
-    background: #ef3224;
+    background: #000000;
     height: 55px;
     position: relative;
     width: 150px;
@@ -172,7 +172,7 @@ nav {
 }
 
 .breaking-news-title:before {
-    border-bottom: 35px solid #ef3224;
+    border-bottom: 35px solid #000000;
     border-left: 27px solid transparent;
     border-right: 28px solid transparent;
     content: "";
@@ -185,7 +185,7 @@ nav {
 }
 
 .breaking-news-message {
-    background-color: #fecb00;
+    background-color: #F9B500;
     flex: 1;
     color: #ffffff;
     font-family: sans-serif;
